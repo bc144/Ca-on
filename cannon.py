@@ -61,9 +61,7 @@ def move():
 
     draw()
 
-    for target in targets:
-        if not inside(target):
-            return
+    #Se crea un loop infinito
 
     ontimer(move, 50)
 
